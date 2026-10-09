@@ -1,0 +1,30 @@
+{
+  "personal": {
+    "file": "img/personal.webp",
+    "title": "Free back personal trainer gym",
+    "creator": "rawpixel",
+    "license": "CC0",
+    "url": "https://www.rawpixel.com/image/5925411/photo-image-public-domain-free-workout"
+  },
+  "nutricion": {
+    "file": "img/nutricion.webp",
+    "title": "simple green smoothie",
+    "creator": "Stacy Spensley",
+    "license": "CC BY 2.0",
+    "url": "https://www.flickr.com/photos/21001756@N06/7429094062"
+  },
+  "fuerza": {
+    "file": "img/fuerza.webp",
+    "title": "David Jobson & Ziggy Chima",
+    "creator": "Brett Jordan",
+    "license": "CC BY 2.0",
+    "url": "https://www.flickr.com/photos/55497864@N00/9724352732"
+  },
+  "kettlebell": {
+    "file": "img/kettlebell.webp",
+    "title": "Kettle bell squats",
+    "creator": "PTPioneer",
+    "license": "CC BY 2.0",
+    "url": "https://www.flickr.com/photos/182613284@N02/48317679472"
+  }
+}

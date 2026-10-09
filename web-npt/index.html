@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NPT · Neuro Physical Training — Saúl C. Zubiaurre</title>
+  <meta name="description" content="Entrenamiento personal, rehabilitación y fisioterapia deportiva y nutrición deportiva en Lima. Neuro Physical Training — Muscle And E-Motion.">
+  <meta name="theme-color" content="#000000">
+  <meta property="og:title" content="NPT · Neuro Physical Training">
+  <meta property="og:description" content="Entrenamiento personalizado, rehabilitación y nutrición deportiva en Surco, La Molina, Miraflores y San Borja.">
+  <meta property="og:image" content="assets/img/fuerza.webp">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='32' fill='%23000'/%3E%3Ctext x='32' y='41' font-family='Arial' font-weight='700' font-size='22' fill='%23fff' text-anchor='middle'%3ENPT%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=20261009">
+  <script>document.documentElement.classList.add("js")</script>
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="header" id="top">
+    <a href="#top" class="logo" aria-label="NPT inicio">
+      <span class="logo__mark">NPT</span>
+      <span class="logo__text">Neuro Physical<br>Training</span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Principal">
+      <a href="#razones">¿Por qué NPT?</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#proceso">Proceso</a>
+      <a href="#coach">Coach</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <button class="btn-book js-open-book" type="button">Agendar <span>+</span></button>
+    <button class="burger" id="burger" type="button" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span></button>
+  </header>
+
+  <!-- ============ BOOKING OVERLAY ============ -->
+  <section class="booking" id="booking" aria-hidden="true" aria-label="Agendar una cita">
+    <button class="booking__close js-close-book" type="button" aria-label="Cerrar">Cerrar <span>×</span></button>
+    <div class="booking__inner">
+      <p class="label">Agenda tu cita por WhatsApp</p>
+      <h2 class="booking__title">¿Qué necesitas?</h2>
+      <ul class="booking__list">
+        <li><a class="js-wa" data-msg="Hola Saúl, quiero agendar una clase de entrenamiento personal presencial." href="https://wa.me/51925676580" target="_blank" rel="noopener"><span>01</span>Entrenamiento personal<em>+</em></a></li>
+        <li><a class="js-wa" data-msg="Hola Saúl, quiero información sobre rehabilitación y fisioterapia deportiva." href="https://wa.me/51925676580" target="_blank" rel="noopener"><span>02</span>Rehabilitación y fisioterapia<em>+</em></a></li>
+        <li><a class="js-wa" data-msg="Hola Saúl, me interesa la asesoría online de nutrición deportiva." href="https://wa.me/51925676580" target="_blank" rel="noopener"><span>03</span>Nutrición deportiva online<em>+</em></a></li>
+        <li><a class="js-wa" data-msg="Hola Saúl, me interesa la asesoría completa de nutrición + entrenamiento." href="https://wa.me/51925676580" target="_blank" rel="noopener"><span>04</span>Nutrición + entrenamiento<em>+</em></a></li>
+      </ul>
+      <p class="booking__foot">+51 925 676 580 · Surco / La Molina / Miraflores / San Borja</p>
+    </div>
+  </section>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="hero__grid" aria-hidden="true"></div>
+      <p class="hero__kicker label">Muscle And E-Motion</p>
+      <h1 class="hero__title">
+        <span class="line"><span>¿Por qué</span></span>
+        <span class="line line--accent"><span>NPT?</span></span>
+      </h1>
+      <p class="hero__sub">Entrenamiento personalizado, rehabilitación física y nutrición deportiva en Lima. Un mismo método, adaptado a tu analítica clínica y a tu logística deportiva.</p>
+      <a href="#razones" class="scroll" aria-label="Bajar">
+        <span class="scroll__label">Descubre</span>
+        <span class="scroll__line"></span>
+        <span class="scroll__word" aria-hidden="true"><i>S</i><i>C</i><i>R</i><i>O</i><i>L</i><i>L</i></span>
+      </a>
+    </section>
+
+    <!-- ============ REASONS (slider) ============ -->
+    <section class="reasons" id="razones" aria-label="Cuatro razones">
+      <div class="reasons__track" id="reasonsTrack">
+        <article class="reason" style="--img:url('assets/img/personal.webp')">
+          <div class="reason__body">
+            <p class="label">Razón 1</p>
+            <h2 class="reason__title">Entrenamiento personalizado</h2>
+            <p class="reason__text"><b>—</b> Nunca entrenas en piloto automático. Cada programa se estructura según tus objetivos, tu historial y tu disponibilidad, y se ajusta sesión a sesión con tu feedback.</p>
+          </div>
+        </article>
+        <article class="reason" style="--img:url('assets/img/rehab.webp')">
+          <div class="reason__body">
+            <p class="label">Razón 2</p>
+            <h2 class="reason__title">Rehabilitación y fisioterapia</h2>
+            <p class="reason__text"><b>—</b> Volver a moverte sin dolor es parte del entrenamiento. Trabajamos la función muscular, articular y fisiológica para recuperarte de lesiones y prevenir las siguientes.</p>
+          </div>
+        </article>
+        <article class="reason" style="--img:url('assets/img/nutricion.webp')">
+          <div class="reason__body">
+            <p class="label">Razón 3</p>
+            <h2 class="reason__title">Nutrición deportiva</h2>
+            <p class="reason__text"><b>—</b> Lo que comes decide la mitad del resultado. Asesoría online para mejorar tus hábitos y optimizar tu composición corporal, estés donde estés.</p>
+          </div>
+        </article>
+        <article class="reason" style="--img:url('assets/img/kettlebell.webp')">
+          <div class="reason__body">
+            <p class="label">Razón 4</p>
+            <h2 class="reason__title">Equilibrio</h2>
+            <p class="reason__text"><b>—</b> Mejorar tu calidad de vida y tu performance deportivo no son metas separadas. El ejercicio también es renovar la mente y fortalecer el espíritu: músculo y emoción.</p>
+          </div>
+        </article>
+      </div>
+      <div class="reasons__ui">
+        <button class="reasons__btn" id="reasonPrev" type="button" aria-label="Razón anterior">Atrás</button>
+        <div class="reasons__count"><span id="reasonNow">1</span> / 4 razones</div>
+        <button class="reasons__btn reasons__btn--next" id="reasonNext" type="button" aria-label="Siguiente razón">Siguiente razón <span>→</span></button>
+      </div>
+      <div class="reasons__bar"><span id="reasonBar"></span></div>
+    </section>
+
+    <!-- ============ MARQUEE ============ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__inner">
+        <span>+ Muscle And E-Motion +</span><span>+ Neuro Physical Training +</span><span>+ Muscle And E-Motion +</span><span>+ Neuro Physical Training +</span>
+        <span>+ Muscle And E-Motion +</span><span>+ Neuro Physical Training +</span><span>+ Muscle And E-Motion +</span><span>+ Neuro Physical Training +</span>
+      </div>
+    </div>
+
+    <!-- ============ SERVICES (accent panel) ============ -->
+    <section class="panel" id="servicios">
+      <h2 class="split-title reveal"><span>Servi—</span><span>cios</span></h2>
+      <ol class="services">
+        <li class="service reveal">
+          <button class="service__head" type="button" aria-expanded="false">
+            <span class="service__num">1</span>
+            <span class="service__label">Servicio 1</span>
+            <span class="service__name">Entrenamiento personal</span>
+            <span class="service__plus">+</span>
+          </button>
+          <div class="service__body"><div class="service__inner">
+            <p>¿Sientes que no le estás sacando partido a tus entrenamientos? Clases presenciales uno a uno con un proceso de siete pasos, de la evaluación al feedback.</p>
+            <ul class="tags"><li>Presencial</li><li>S/ 89 por clase</li><li>55 min + 10 min de tolerancia</li></ul>
+            <a class="link-more js-wa" data-msg="Hola Saúl, quiero agendar una clase de entrenamiento personal presencial." href="https://wa.me/51925676580" target="_blank" rel="noopener">Me interesa +</a>
+          </div></div>
+        </li>
+        <li class="service reveal">
+          <button class="service__head" type="button" aria-expanded="false">
+            <span class="service__num">2</span>
+            <span class="service__label">Servicio 2</span>
+            <span class="service__name">Rehabilitación y fisioterapia deportiva</span>
+            <span class="service__plus">+</span>
+          </button>
+          <div class="service__body"><div class="service__inner">
+            <p>Recuperación de lesiones y readaptación al esfuerzo. Optimizamos la función de tu sistema muscular, articular y fisiológico con un plan acorde a tus necesidades clínicas.</p>
+            <ul class="tags"><li>Presencial</li><li>Previa evaluación</li></ul>
+            <a class="link-more js-wa" data-msg="Hola Saúl, quiero información sobre rehabilitación y fisioterapia deportiva." href="https://wa.me/51925676580" target="_blank" rel="noopener">Me interesa +</a>
+          </div></div>
+        </li>
+        <li class="service reveal">
+          <button class="service__head" type="button" aria-expanded="false">
+            <span class="service__num">3</span>
+            <span class="service__label">Servicio 3</span>
+            <span class="service__name">Nutrición deportiva y composición corporal</span>
+            <span class="service__plus">+</span>
+          </button>
+          <div class="service__body"><div class="service__inner">
+            <p>¿Quieres mejorar tus hábitos de alimentación para lograr tus objetivos? Asesoría para optimizar tu composición corporal, con seguimiento a distancia.</p>
+            <ul class="tags"><li>Online</li><li>Desde cualquier lugar</li></ul>
+            <a class="link-more js-wa" data-msg="Hola Saúl, me interesa la asesoría online de nutrición deportiva." href="https://wa.me/51925676580" target="_blank" rel="noopener">Me interesa +</a>
+          </div></div>
+        </li>
+        <li class="service reveal">
+          <button class="service__head" type="button" aria-expanded="false">
+            <span class="service__num">4</span>
+            <span class="service__label">Servicio 4</span>
+            <span class="service__name">Nutrición + entrenamiento</span>
+            <span class="service__plus">+</span>
+          </button>
+          <div class="service__body"><div class="service__inner">
+            <p>¿Necesitas una asesoría completa para mejorar tu alimentación y tu entrenamiento? Un solo plan que une ambas áreas, con un especialista en cada una.</p>
+            <ul class="tags"><li>Asesoría completa</li><li>Plan integrado</li></ul>
+            <a class="link-more js-wa" data-msg="Hola Saúl, me interesa la asesoría completa de nutrición + entrenamiento." href="https://wa.me/51925676580" target="_blank" rel="noopener">Me interesa +</a>
+          </div></div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ============ PROCESS (interactive) ============ -->
+    <section class="process" id="proceso">
+      <div class="process__head">
+        <p class="label">Vista interactiva · Haz clic y explora</p>
+        <h2 class="split-title split-title--light reveal"><span>Proce—</span><span>so</span></h2>
+        <p class="process__intro reveal">Así es una clase de entrenamiento personal NPT. Siete pasos que se repiten en cada sesión.</p>
+      </div>
+
+      <div class="process__grid">
+        <div class="dial reveal" aria-hidden="true">
+          <svg viewBox="0 0 200 200" class="dial__svg" id="dialSvg"></svg>
+          <div class="dial__center">
+            <strong>55</strong>
+            <span>min de sesión</span>
+          </div>
+        </div>
+
+        <div class="process__panel">
+          <ol class="steps" id="steps">
+            <li><button type="button" class="step is-active" data-i="0"><span>01</span>Definir objetivos</button></li>
+            <li><button type="button" class="step" data-i="1"><span>02</span>Calentamiento general</button></li>
+            <li><button type="button" class="step" data-i="2"><span>03</span>Calentamiento específico</button></li>
+            <li><button type="button" class="step" data-i="3"><span>04</span>Sesión</button></li>
+            <li><button type="button" class="step" data-i="4"><span>05</span>Estiramiento</button></li>
+            <li><button type="button" class="step" data-i="5"><span>06</span>Cool down</button></li>
+            <li><button type="button" class="step" data-i="6"><span>07</span>Feedback</button></li>
+          </ol>
+          <div class="step-detail" id="stepDetail" aria-live="polite">
+            <p class="label" id="stepLabel">Paso 01</p>
+            <h3 id="stepTitle">Definir objetivos</h3>
+            <p id="stepText">Evaluamos tu punto de partida y fijamos qué quieres conseguir. Sin esto, nada de lo demás tiene dirección.</p>
+          </div>
+          <div class="facts">
+            <div><strong>S/ 89</strong><span>Clase presencial</span></div>
+            <div><strong>55'</strong><span>Sesión</span></div>
+            <div><strong>10'</strong><span>Tolerancia</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ COACH ============ -->
+    <section class="coach" id="coach">
+      <figure class="coach__photo reveal">
+        <img src="assets/img/saul.webp" alt="Saúl C. Zubiaurre, coach y CEO de Neuro Physical Training" loading="lazy" width="705" height="553">
+        <figcaption>Saúl C. Zubiaurre — CEO &amp; Coach</figcaption>
+      </figure>
+      <div class="coach__text">
+        <p class="label">Conoce a tu coach</p>
+        <h2 class="coach__name reveal">Saúl C.<br><span>Zubiaurre</span></h2>
+        <p class="coach__quote reveal">No hay excusas, secretos ni atajos: solo esfuerzo, disciplina y resultados.</p>
+        <p class="reveal">Soy Saúl. El fitness no es solo mi pasión, es quien soy. Llevo años entrenando, estudiando, mejorando y ayudando a otros a superar sus límites.</p>
+        <p class="reveal">Los cambios no llegan fácil ni rápido, pero perseguirlos cada día es lo que me motiva. Si estás listo para darlo todo, aquí estoy para guiarte.</p>
+        <a class="btn-outline js-open-book" href="#contacto">Entrena conmigo <span>+</span></a>
+      </div>
+    </section>
+
+    <!-- ============ VISION / MISSION ============ -->
+    <section class="mission">
+      <div class="mission__col reveal">
+        <p class="label">Visión</p>
+        <h3>Mejorar tu calidad de vida</h3>
+        <p>Neuro Physical Training se centra en optimizar la función de tu sistema muscular, articular y fisiológico. Buscamos el equilibrio entre salud y rendimiento, con entrenamiento personalizado y rehabilitación física.</p>
+      </div>
+      <div class="mission__col reveal">
+        <p class="label">Misión · ¿Cómo?</p>
+        <h3>Programas con método</h3>
+        <p>Con programas estructurados y una metodología personalizada, acorde a tus necesidades clínicas y/o deportivas. Cada área cuenta con un especialista para darte soluciones a tu medida.</p>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="contact" id="contacto">
+      <h2 class="split-title split-title--light reveal"><span>Agenda—</span><span>tu cita</span></h2>
+      <div class="contact__grid">
+        <a class="contact__item js-wa" data-msg="Hola Saúl, quiero agendar una cita con NPT." href="https://wa.me/51925676580" target="_blank" rel="noopener">
+          <span class="label">WhatsApp</span><strong>+51 925 676 580</strong><em>→</em>
+        </a>
+        <a class="contact__item" href="https://www.instagram.com/neurophysical_training/" target="_blank" rel="noopener">
+          <span class="label">Instagram</span><strong>@neurophysical_training</strong><em>→</em>
+        </a>
+        <a class="contact__item" href="mailto:saul.calzado.z@gmail.com">
+          <span class="label">Email</span><strong class="lower">saul.calzado.z@gmail.com</strong><em>→</em>
+        </a>
+        <div class="contact__item contact__item--static">
+          <span class="label">Zonas · Lima</span><strong>Surco · La Molina · Miraflores · San Borja</strong>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <span>© NPT Neuro Physical Training <span id="year">2026</span></span>
+    <nav aria-label="Pie de página">
+      <a href="#top">Inicio</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#proceso">Proceso</a>
+      <a href="#coach">Coach</a>
+      <a href="#contacto">Contacto</a>
+      <a href="https://www.instagram.com/neurophysical_training/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://wa.me/51925676580" target="_blank" rel="noopener">WhatsApp</a>
+    </nav>
+    <details class="credits">
+      <summary>Créditos de imágenes</summary>
+      <p>Fotos de stock con licencia Creative Commons: “Free back personal trainer gym” (rawpixel, CC0); “simple green smoothie” por Stacy Spensley (CC BY 2.0); “David Jobson &amp; Ziggy Chima” por Brett Jordan (CC BY 2.0); “Kettle bell squats” por PTPioneer (CC BY 2.0).</p>
+    </details>
+  </footer>
+
+  <!-- floating WhatsApp -->
+  <a class="wa-float js-wa" data-msg="Hola Saúl, vi tu web y quiero más información." href="https://wa.me/51925676580" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3zm0 23.7c-2 0-4-.6-5.7-1.6l-.4-.2-3.9 1 1-3.8-.3-.4A10.7 10.7 0 1 1 16 26.7zm5.9-8c-.3-.2-1.9-1-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7 0a8.8 8.8 0 0 1-4.4-3.8c-.3-.6.3-.5 1-1.7.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6 0-.9.4s-1.2 1.1-1.2 2.8 1.2 3.2 1.4 3.4 2.4 3.6 5.7 5c2.1.9 3 1 4 .8.7-.1 1.9-.8 2.2-1.5s.3-1.3.2-1.5-.3-.2-.6-.4z"/></svg>
+  </a>
+
+  <script src="main.js?v=20261009" defer></script>
+</body>
+</html>
